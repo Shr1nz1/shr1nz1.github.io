@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="我的项目空间：记录项目、实践与探索。">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f5f3ed">
+  <title>Shr1nz1 · Projects & Explorations</title>
+  <link rel="canonical" href="https://shr1nz1.github.io/">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./config.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div class="shell">
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="回到首页"><span class="brand-mark" aria-hidden="true">p<span>·</span></span><span id="site-name">Shr1nz1</span></a>
+      <nav aria-label="主导航"><a href="#projects">项目</a><a href="#about">关于</a><a id="header-github" class="external-link" hidden>GitHub ↗</a></nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换到深色模式"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.1 15.3A8.5 8.5 0 0 1 8.7 3.9a8.5 8.5 0 1 0 11.4 11.4Z"/></svg></button>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="tiny-cross" aria-hidden="true">✳</span> SHR1NZ1 / PROJECTS & EXPLORATIONS</p>
+          <h1 id="hero-title">把想法，<br>慢慢做成<span class="accent-word">作品<svg viewBox="0 0 200 15" aria-hidden="true"><path d="M3 10Q100 0 197 8"/></svg></span>。</h1>
+          <p class="hero-description" id="intro">这里收集我的项目、实践与探索。<br>每一个作品，都从一个值得动手的想法开始。</p>
+          <div class="hero-actions"><a class="button-primary" href="#projects">浏览项目 <span aria-hidden="true">↘</span></a><a class="button-text" href="#about">关于这个空间 <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-label">IDEA → EXPERIMENT → PROJECT</div>
+          <svg class="orbit-art" viewBox="0 0 470 390" fill="none">
+            <defs><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="currentColor" opacity=".14"/></pattern></defs>
+            <rect x="10" y="10" width="450" height="355" fill="url(#dots)"/>
+            <ellipse cx="231" cy="190" rx="193" ry="69" transform="rotate(-32 231 190)" stroke="currentColor" opacity=".22"/>
+            <ellipse cx="231" cy="190" rx="193" ry="69" transform="rotate(32 231 190)" stroke="currentColor" opacity=".22"/>
+            <ellipse cx="231" cy="190" rx="156" ry="111" stroke="currentColor" stroke-dasharray="3 7" opacity=".22"/>
+            <path d="M231 85v210M127 190h208" stroke="currentColor" opacity=".13"/>
+            <g transform="translate(169 122) rotate(-9 64 64)"><rect x="6" y="9" width="128" height="128" rx="24" fill="var(--ink)" opacity=".08"/><rect width="128" height="128" rx="24" fill="var(--accent)"/><path d="m48 45-21 19 21 19m32-38 21 19-21 19m-12-45-9 58" stroke="var(--on-accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+            <g transform="translate(65 80) rotate(-10)"><rect width="57" height="57" rx="13" fill="var(--paper)" stroke="var(--ink)" stroke-opacity=".18"/><path d="M18 20h21M18 28h21M18 36h13" stroke="var(--ink)" stroke-width="2" stroke-linecap="round"/></g>
+            <g transform="translate(335 249) rotate(8)"><rect width="61" height="61" rx="14" fill="var(--paper)" stroke="var(--ink)" stroke-opacity=".18"/><path d="m20 38 8-17 12 17H20Z" stroke="var(--ink)" stroke-width="2" stroke-linejoin="round"/></g>
+            <circle cx="368" cy="103" r="8" fill="var(--accent)"/><circle cx="100" cy="279" r="5" fill="var(--ink)"/>
+            <path d="M342 170h18m-9-9v18M159 310h12m-6-6v12" stroke="var(--accent)" stroke-width="2"/>
+          </svg>
+          <div class="art-caption"><span>小小的想法，也值得认真实现。</span><span>FIG. 01</span></div>
+        </div>
+      </section>
+
+      <div class="section-divider"><span>EXPLORE THE COLLECTION</span><span aria-hidden="true">↓</span></div>
+
+      <section id="projects" class="projects-section" aria-labelledby="projects-title">
+        <div class="section-heading"><div><p class="eyebrow">01 / PROJECTS</p><h2 id="projects-title">项目集<span class="heading-dot">.</span></h2></div><p>从一次尝试，到一个完整的作品。<br>把做过的事情，留在这里。</p></div>
+        <div class="project-tools" id="project-tools" hidden>
+          <div class="filters" role="group" aria-label="按项目来源筛选"><button class="filter active" data-filter="all" aria-pressed="true">全部项目 <span id="total-count">0</span></button><button class="filter" data-filter="featured" aria-pressed="false">精选</button></div>
+          <div class="search-controls"><label class="sr-only" for="language-filter">按语言筛选</label><select id="language-filter"><option value="">所有语言</option></select><label class="search-field"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><span class="sr-only">搜索项目</span><input id="project-search" type="search" placeholder="搜索项目或关键词" autocomplete="off"></label></div>
+        </div>
+        <p class="project-status" id="project-status" role="status" aria-live="polite"></p>
+        <div id="project-grid" class="project-grid"></div>
+        <div id="empty-state" class="empty-state"><span class="empty-icon" aria-hidden="true">＋</span><p class="empty-eyebrow">THE NEXT IDEA STARTS HERE</p><h3>为下一个作品，留一个位置。</h3><p>项目正在整理中。<br>新的尝试与完成的作品，会陆续出现在这里。</p><div class="empty-bottom"><span>想法</span><span aria-hidden="true">——</span><span>实践</span><span aria-hidden="true">——</span><span>分享</span></div></div>
+        <div id="no-results" class="no-results" hidden><h3>没有找到匹配的项目</h3><p>试试其他关键词，或者查看全部项目。</p><button id="reset-filters" class="button-text" type="button">清除筛选 ↗</button></div>
+        <div class="projects-footer"><span id="collection-caption">A COLLECTION, ALWAYS IN PROGRESS.</span><a id="all-repositories" hidden>在 GitHub 查看全部仓库 ↗</a></div>
+        <noscript><p>开启 JavaScript 后可查看项目目录。个人介绍仍可正常浏览。</p></noscript>
+      </section>
+
+      <section id="about" class="about-section" aria-labelledby="about-title"><div><p class="eyebrow">02 / ABOUT THIS SPACE</p><h2 id="about-title">保持好奇，<br>持续创造<span class="heading-dot">.</span></h2></div><div class="about-copy"><p id="about-text">这是我的个人项目空间，也是一个持续更新的记录。这里会慢慢汇集我做过的项目、用过的方法，以及探索过程中的一些收获。</p><p class="muted" id="about-secondary">作品不必一开始就完整。先动手，再改进，让每一次尝试都留下痕迹。</p><a id="about-github" class="button-text" hidden>在 GitHub 找到我 <span aria-hidden="true">↗</span></a><a id="contact-email" class="button-text" hidden>邮件联系 <span aria-hidden="true">↗</span></a></div></section>
+    </main>
+
+    <footer class="site-footer"><a class="footer-brand" href="#"><span class="brand-mark small" aria-hidden="true">p<span>·</span></span><span id="footer-name">Shr1nz1</span></a><span class="footer-note">MADE WITH CURIOSITY.</span><a href="#" class="back-top">回到顶部 ↑</a></footer>
+  </div>
+</body>
+</html>
